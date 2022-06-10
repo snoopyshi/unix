@@ -12,11 +12,11 @@
 
 
 /**退出宏**/
-#define ERR_EXIT(m) \
-        do \
-        {\
-            perror(m);\
-            exit(-1);\
+#define ERR_EXIT(m)             \
+        do                      \
+        {                       \
+            perror(m);          \
+            exit(-1);           \
         } while(0)
         
 
